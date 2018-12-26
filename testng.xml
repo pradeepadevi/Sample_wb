@@ -14,12 +14,4 @@
       <class name="testlayer.Sample_TestCase_002"/>
     </classes>
   </test>
-  
-  <test name="Firefox">
-  <parameter name="browsername" value="firefox"/>
-    <classes>
-      <class name="testlayer.Sample_TestCase_001"/>
-      <class name="testlayer.Sample_TestCase_002"/>
-    </classes>
-  </test>
 </suite> <!-- Suite -->
