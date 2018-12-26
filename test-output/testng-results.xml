@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="12" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="119156" started-at="2018-12-26T06:28:29Z" finished-at="2018-12-26T06:30:28Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="60790" started-at="2018-12-26T06:28:29Z" finished-at="2018-12-26T06:29:29Z">
+      <class name="testlayer.Sample_TestCase_002">
+        <test-method status="PASS" signature="NavigateToEmerio()[pri:0, instance:testlayer.Sample_TestCase_002@1794d431]" name="NavigateToEmerio" duration-ms="8245" started-at="2018-12-26T06:29:20Z" finished-at="2018-12-26T06:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToEmerio -->
+      </class> <!-- testlayer.Sample_TestCase_002 -->
+      <class name="testlayer.Sample_TestCase_001">
+        <test-method status="PASS" signature="initializeDriver(java.lang.String)[pri:0, instance:testlayer.Sample_TestCase_001@39c0f4a]" name="initializeDriver" is-config="true" duration-ms="33515" started-at="2018-12-26T06:28:29Z" finished-at="2018-12-26T06:29:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="SearchEmerio()[pri:0, instance:testlayer.Sample_TestCase_001@39c0f4a]" name="SearchEmerio" duration-ms="17722" started-at="2018-12-26T06:29:02Z" finished-at="2018-12-26T06:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchEmerio -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testlayer.Sample_TestCase_001@39c0f4a]" name="quitDriver" is-config="true" duration-ms="1266" started-at="2018-12-26T06:29:28Z" finished-at="2018-12-26T06:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testlayer.Sample_TestCase_001 -->
+    </test> <!-- Chrome -->
+    <test name="Firefox" duration-ms="57664" started-at="2018-12-26T06:29:30Z" finished-at="2018-12-26T06:30:28Z">
+      <class name="testlayer.Sample_TestCase_002">
+        <test-method status="PASS" signature="NavigateToEmerio()[pri:0, instance:testlayer.Sample_TestCase_002@5bcab519]" name="NavigateToEmerio" duration-ms="8361" started-at="2018-12-26T06:30:13Z" finished-at="2018-12-26T06:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToEmerio -->
+      </class> <!-- testlayer.Sample_TestCase_002 -->
+      <class name="testlayer.Sample_TestCase_001">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:testlayer.Sample_TestCase_001@6fd02e5]" name="BeforeSuite" is-config="true" duration-ms="15" started-at="2018-12-26T06:28:29Z" finished-at="2018-12-26T06:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="initializeDriver(java.lang.String)[pri:0, instance:testlayer.Sample_TestCase_001@6fd02e5]" name="initializeDriver" is-config="true" duration-ms="24725" started-at="2018-12-26T06:29:30Z" finished-at="2018-12-26T06:29:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="SearchEmerio()[pri:0, instance:testlayer.Sample_TestCase_001@6fd02e5]" name="SearchEmerio" duration-ms="17814" started-at="2018-12-26T06:29:55Z" finished-at="2018-12-26T06:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchEmerio -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testlayer.Sample_TestCase_001@6fd02e5]" name="quitDriver" is-config="true" duration-ms="6760" started-at="2018-12-26T06:30:21Z" finished-at="2018-12-26T06:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testlayer.Sample_TestCase_001@6fd02e5]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-12-26T06:30:28Z" finished-at="2018-12-26T06:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testlayer.Sample_TestCase_001 -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
